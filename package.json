@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "foo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "mdx-deck index.mdx",
+    "dev": "mdx-deck index.mdx --port $PORT",
+    "build": "mdx-deck build index.mdx",
+    "help": "mdx-deck"
+  },
+  "devDependencies": {
+    "mdx-deck": "^3.0.8"
+  }
+}
